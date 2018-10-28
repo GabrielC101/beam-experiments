@@ -1,4 +1,4 @@
-package org.gabrielcurio.tutorials.beam.transforms.dofns;
+package org.gabrielcurio.tutorials.beam.wordcount.transforms.dofns;
 
 import org.apache.beam.examples.common.ExampleUtils;
 import org.apache.beam.sdk.metrics.Counter;

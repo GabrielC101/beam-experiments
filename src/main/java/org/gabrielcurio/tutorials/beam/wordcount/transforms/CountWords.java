@@ -1,4 +1,4 @@
-package org.gabrielcurio.tutorials.beam.transforms;
+package org.gabrielcurio.tutorials.beam.wordcount.transforms;
 
 
 import org.apache.beam.sdk.transforms.Count;
@@ -6,7 +6,7 @@ import org.apache.beam.sdk.transforms.PTransform;
 import org.apache.beam.sdk.transforms.ParDo;
 import org.apache.beam.sdk.values.KV;
 import org.apache.beam.sdk.values.PCollection;
-import org.gabrielcurio.tutorials.beam.transforms.dofns.ExtractWordsFn;
+import org.gabrielcurio.tutorials.beam.wordcount.transforms.dofns.ExtractWordsFn;
 
 /**
  * A PTransform that converts a PCollection containing lines of text into a PCollection of

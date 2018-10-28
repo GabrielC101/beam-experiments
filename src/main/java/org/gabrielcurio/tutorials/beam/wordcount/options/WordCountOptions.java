@@ -1,11 +1,11 @@
-package org.gabrielcurio.tutorials.beam.options;
+package org.gabrielcurio.tutorials.beam.wordcount.options;
 
 
 import org.apache.beam.sdk.options.Default;
 import org.apache.beam.sdk.options.Description;
 import org.apache.beam.sdk.options.PipelineOptions;
 import org.apache.beam.sdk.options.Validation;
-import org.gabrielcurio.tutorials.beam.WordCountApp;
+import org.gabrielcurio.tutorials.beam.wordcount.WordCountApp;
 
 /**
  * Options supported by {@link WordCountApp}.

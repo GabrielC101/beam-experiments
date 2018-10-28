@@ -15,14 +15,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.gabrielcurio.tutorials.beam;
+package org.gabrielcurio.tutorials.beam.wordcount;
 
 import org.apache.beam.examples.DebuggingWordCount;
 import org.apache.beam.examples.MinimalWordCount;
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.options.PipelineOptionsFactory;
-import org.gabrielcurio.tutorials.beam.options.WordCountOptions;
-import org.gabrielcurio.tutorials.beam.pipelineBuilders.WordCountPipelineBuilder;
+
+import org.gabrielcurio.tutorials.beam.wordcount.options.WordCountOptions;
+import org.gabrielcurio.tutorials.beam.wordcount.pipelineBuilders.WordCountPipelineBuilder;
 
 
 /**

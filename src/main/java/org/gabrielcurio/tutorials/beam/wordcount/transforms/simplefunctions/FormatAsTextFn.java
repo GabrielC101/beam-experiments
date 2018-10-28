@@ -1,4 +1,4 @@
-package org.gabrielcurio.tutorials.beam.transforms.simplefunctions;
+package org.gabrielcurio.tutorials.beam.wordcount.transforms.simplefunctions;
 
 import org.apache.beam.sdk.transforms.SimpleFunction;
 import org.apache.beam.sdk.values.KV;

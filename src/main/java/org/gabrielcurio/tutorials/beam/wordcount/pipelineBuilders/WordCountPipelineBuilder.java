@@ -1,11 +1,11 @@
-package org.gabrielcurio.tutorials.beam.pipelineBuilders;
+package org.gabrielcurio.tutorials.beam.wordcount.pipelineBuilders;
 
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.transforms.MapElements;
-import org.gabrielcurio.tutorials.beam.options.WordCountOptions;
-import org.gabrielcurio.tutorials.beam.transforms.CountWords;
-import org.gabrielcurio.tutorials.beam.transforms.simplefunctions.FormatAsTextFn;
+import org.gabrielcurio.tutorials.beam.wordcount.options.WordCountOptions;
+import org.gabrielcurio.tutorials.beam.wordcount.transforms.CountWords;
+import org.gabrielcurio.tutorials.beam.wordcount.transforms.simplefunctions.FormatAsTextFn;
 
 public class WordCountPipelineBuilder {
 
